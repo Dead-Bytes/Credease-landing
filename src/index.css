@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Ensure Pixelify Sans font is loaded and applied */
+.font-pixelify {
+  font-family: 'Pixelify Sans', 'Courier New', monospace !important;
+  font-display: swap;
+}
