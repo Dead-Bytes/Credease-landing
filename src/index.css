@@ -1,7 +1,52 @@
 @import "tailwindcss";
 
+/* Load 5by7 (CityLight Dots) font */
+@font-face {
+  font-family: 'CityLight';
+  src: url('./assets/5by7/5by7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Load Copperplate Gothic font */
+@font-face {
+  font-family: 'CopperplateGothic';
+  src: url('./assets/CopperplateGothicStd-29BC.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Load Amoresa font */
+@font-face {
+  font-family: 'Amoresa';
+  src: url('./assets/Amoresa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Ensure Pixelify Sans font is loaded and applied */
 .font-pixelify {
   font-family: 'Pixelify Sans', 'Courier New', monospace !important;
+  font-display: swap;
+}
+
+/* CityLight Dots font class */
+.font-citylight {
+  font-family: 'CityLight', 'Courier New', monospace !important;
+  font-display: swap;
+}
+
+/* Copperplate Gothic font class */
+.font-copperplate {
+  font-family: 'CopperplateGothic', serif !important;
+  font-display: swap;
+}
+
+/* Amoresa font class */
+.font-amoresa {
+  font-family: 'Amoresa', cursive !important;
   font-display: swap;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import businessImage from '../assets/usiness.png';
-import logoImage from '../assets/logo.jpeg';
+import logoImage from '../assets/Credease_logo.webp';
 
 const LandingPage: React.FC = () => {
   return (
@@ -11,12 +11,12 @@ const LandingPage: React.FC = () => {
         <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-white/80 backdrop-blur-md rounded-full px-6 sm:px-8 py-3 sm:py-4 flex items-center justify-between w-3/4 max-w-6xl">
           {/* Logo and Brand */}
           <div className="flex items-center space-x-2 sm:space-x-3">
-            <img 
-              src={logoImage} 
-              alt="CredEase Logo" 
+            <img
+              src={logoImage}
+              alt="Credease Logo"
               className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
             />
-            <span className="text-black font-medium text-base sm:text-lg">CredEase</span>
+            <span className="font-amoresa text-base sm:text-lg" style={{color: '#0f505b'}}>Credease</span>
           </div>
           
           {/* Navigation */}
@@ -32,7 +32,7 @@ const LandingPage: React.FC = () => {
                     <!DOCTYPE html>
                     <html>
                       <head>
-                        <title>CredEase Docs</title>
+                        <title>Credease Docs</title>
                         <script src="https://cdn.tailwindcss.com"></script>
                       </head>
                       <body>
@@ -43,7 +43,7 @@ const LandingPage: React.FC = () => {
                           document.getElementById('root').innerHTML = \`
                             <div class="min-h-screen bg-white flex items-center justify-center">
                               <div class="text-center">
-                                <h1 class="text-4xl font-bold text-gray-800 mb-4">CredEase Documentation</h1>
+                                <h1 class="text-4xl font-bold text-gray-800 mb-4">Credease Documentation</h1>
                                 <p class="text-gray-600">Documentation will be available here.</p>
                                 <button onclick="window.close()" class="mt-4 px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700">
                                   Close
@@ -68,9 +68,14 @@ const LandingPage: React.FC = () => {
         {/* Main Content */}
         <main className="flex flex-col items-center justify-start flex-1 px-4 pt-20 sm:pt-24 md:pt-28 lg:pt-32 xl:pt-36 relative z-10">
           {/* Main Heading */}
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-pixelify text-black text-center mb-6 sm:mb-8 leading-tight">
-            Everything Human
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-citylight text-black text-center mb-4 sm:mb-6 leading-tight">
+            Fiat Lux Artha Nova
           </h1>
+
+          {/* Subheading */}
+          <p className="text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-copperplate text-black text-center mb-6 sm:mb-8 tracking-wide uppercase">
+            "Let there be credit, Let wealth be reborn"
+          </p>
         </main>
 
         {/* Black Card Component - spans full width and acts as divider */}
@@ -118,18 +123,18 @@ const LandingPage: React.FC = () => {
         <main className="flex flex-col items-center justify-center flex-1 px-4 py-8 sm:py-12">
           {/* Motto */}
           <p className="text-gray-400 text-xs sm:text-sm md:text-base lg:text-lg mb-3 sm:mb-4 text-center">
-            We Live By One Goal
+           Our Vision
           </p>
           
           {/* Main Headline */}
-          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-pixelify text-black text-center mb-6 sm:mb-8 leading-tight px-2">
-            Internet Can Be Human Again!
+          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-amoresa text-black text-center mb-6 sm:mb-8 leading-tight px-2">
+            Valor Persona Credita Shrinkhala.
           </h1>
           
           {/* Description */}
           <div className="max-w-3xl lg:max-w-4xl mx-auto text-center px-2">
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-black leading-relaxed">
-              AI content is everywhere, making it hard to spot real humans online. Mercle uses your facial features to create a unique credential that proves you're human. Authenticate your posts, chats, and content with it, so everyone knows it's genuinely <span className="font-bold">YOU</span>.
+              Creating a decentralized credit framework that unites RWA-backed and identity-verified lending through on-chain attestations and AI Verifications— redefining how trust becomes accessible, programmable wealth.
             </p>
           </div>
         </main>
@@ -139,12 +144,12 @@ const LandingPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row justify-between items-center max-w-6xl mx-auto space-y-2 sm:space-y-0">
             {/* Left side - Logo and Brand */}
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <img 
-                src={logoImage} 
-                alt="CredEase Logo" 
+              <img
+                src={logoImage}
+                alt="Credease Logo"
                 className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
               />
-              <span className="text-black font-medium text-xs sm:text-sm md:text-base">CredEase</span>
+              <span className="font-amoresa text-xs sm:text-sm md:text-base" style={{color: '#0f505b'}}>Credease</span>
             </div>
             
             {/* Right side - Copyright */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from '../assets/logo.jpeg';
+import logoImage from '../assets/credease_logo.webp';
 
 interface DocsPageProps {
   onNavigateToLanding: () => void;
@@ -12,15 +12,15 @@ const DocsPage: React.FC<DocsPageProps> = ({ onNavigateToLanding }) => {
       <div className="w-64 bg-white border-r border-gray-200 flex flex-col">
         {/* Sidebar Content */}
         <div className="flex-1 overflow-y-auto p-6">
-          {/* CredEase Section */}
+          {/* Credease Section */}
           <div className="mb-8">
             <div className="flex items-center space-x-2 mb-4">
-              <img 
-                src={logoImage} 
-                alt="CredEase Logo" 
+              <img
+                src={logoImage}
+                alt="Credease Logo"
                 className="w-5 h-5 object-contain"
               />
-              <span className="font-semibold text-gray-800">CredEase</span>
+              <span className="font-amoresa" style={{color: '#0f505b'}}>Credease</span>
             </div>
             <div className="space-y-2 ml-7">
               <div className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 cursor-pointer">
@@ -205,7 +205,7 @@ const DocsPage: React.FC<DocsPageProps> = ({ onNavigateToLanding }) => {
             <div className="text-white text-center">
               <div className="text-4xl font-bold mb-2">DAMN!</div>
               <div className="text-xl mb-4">you dropped this!</div>
-              <div className="text-2xl font-bold mb-2">CredEase</div>
+              <div className="text-2xl font-amoresa mb-2" style={{color: '#0f505b'}}>Credease</div>
               <div className="text-sm">humane traits, humane internet</div>
             </div>
           </div>
@@ -215,7 +215,7 @@ const DocsPage: React.FC<DocsPageProps> = ({ onNavigateToLanding }) => {
             <div className="flex items-start justify-between">
               <div>
                 <div className="flex items-center space-x-3 mb-2">
-                  <h1 className="text-4xl font-bold text-gray-800">CredEase</h1>
+                  <h1 className="text-4xl font-amoresa" style={{color: '#0f505b'}}>Credease</h1>
                   <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
                   </svg>
@@ -253,7 +253,7 @@ const DocsPage: React.FC<DocsPageProps> = ({ onNavigateToLanding }) => {
               </p>
               
               <p>
-                CredEase addresses this growing challenge by developing a reliable method for human verification.
+                Credease addresses this growing challenge by developing a reliable method for human verification.
               </p>
             </div>
           </div>
