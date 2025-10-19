@@ -1,6 +1,7 @@
 import React from 'react';
-import businessImage from '../assets/usiness.png';
-import logoImage from '../assets/Credease_logo.webp';
+import businessImage from '@/assets/usiness.png';
+import logoImage from '@/assets/credease_logo.webp';
+import pitchPdf from '@/assets/Fles.pdf';
 
 const LandingPage: React.FC = () => {
   return (
@@ -21,47 +22,22 @@ const LandingPage: React.FC = () => {
           
           {/* Navigation */}
           <nav className="flex space-x-6 sm:space-x-8">
-            <a 
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                // Create a new window with the docs page
-                const newWindow = window.open('', '_blank');
-                if (newWindow) {
-                  newWindow.document.write(`
-                    <!DOCTYPE html>
-                    <html>
-                      <head>
-                        <title>Credease Docs</title>
-                        <script src="https://cdn.tailwindcss.com"></script>
-                      </head>
-                      <body>
-                        <div id="root"></div>
-                        <script>
-                          // This would normally load the docs component
-                          // For now, we'll show a placeholder
-                          document.getElementById('root').innerHTML = \`
-                            <div class="min-h-screen bg-white flex items-center justify-center">
-                              <div class="text-center">
-                                <h1 class="text-4xl font-bold text-gray-800 mb-4">Credease Documentation</h1>
-                                <p class="text-gray-600">Documentation will be available here.</p>
-                                <button onclick="window.close()" class="mt-4 px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700">
-                                  Close
-                                </button>
-                              </div>
-                            </div>
-                          \`;
-                        </script>
-                      </body>
-                    </html>
-                  `);
-                }
-              }}
+            <a
+              href="https://dead-bytes.gitbook.io/credease"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-black hover:text-gray-600 transition-colors text-sm sm:text-base underline decoration-1 underline-offset-4"
             >
               Docs
             </a>
-            <a href="#" className="text-black hover:text-gray-600 transition-colors text-sm sm:text-base underline decoration-1 underline-offset-4">Blogs</a>
+            <a
+              href={pitchPdf}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:text-gray-600 transition-colors text-sm sm:text-base underline decoration-1 underline-offset-4"
+            >
+              Pitch
+            </a>
           </nav>
         </header>
 

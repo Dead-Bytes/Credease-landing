@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from '../assets/credease_logo.webp';
+import logoImage from '@/assets/credease_logo.webp';
 
 interface DocsPageProps {
   onNavigateToLanding: () => void;
