@@ -110,7 +110,7 @@ const LandingPage: React.FC = () => {
           {/* Description */}
           <div className="max-w-3xl lg:max-w-4xl mx-auto text-center px-2">
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-black leading-relaxed">
-              Creating a decentralized credit framework that unites RWA-backed and identity-verified lending through on-chain attestations and AI Verifications— redefining how trust becomes accessible, programmable wealth.
+              Creating a decentralized credit framework that unites RWA-backed and identity-verified lending through onchain attestations & AI Verifications. We redefine how trust becomes accessible through programmable wealth.
             </p>
           </div>
         </main>
@@ -130,7 +130,7 @@ const LandingPage: React.FC = () => {
             
             {/* Right side - Copyright */}
             <div className="text-black text-xs sm:text-sm text-center sm:text-right">
-              All Rights Reserved © Pay2oll 2028
+              All Rights Reserved © CredEase 2025
             </div>
           </div>
         </footer>
